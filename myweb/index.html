@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+          border: 2px solid white;
+           background-color: white;
+            width: 100%;
+            padding: 0px;
+        }
+        .header{
+            height: 400px;
+            background-image: url('img.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        header{
+          display: flex;
+          height: 80px;
+        }
+        .ldiv{
+            width: 180px;
+        }
+        .cdiv{
+            display: flex;
+            width: 900px;
+        }
+        .c1{
+            width: 50%;
+        }
+        .nav{
+            width: 50%;
+            padding: 30px 10px 0px 10px;
+        }
+        .btn{
+            margin-left: 20px;
+            width: 80px;
+            height: 30px;
+        }
+        .rdiv{
+            padding-top: 30px;
+            display: flex;
+        }
+
+    .section{
+      width: 100%;     color: white;
+  height: 250px;
+}
+
+.mainn{
+  margin-left: 300px;
+  padding: 10px;
+  display: flex;
+  height: 200px;
+  width: 800px;
+}
+
+.one{
+  padding-top: 50px;
+  width: 600px;
+  height: 100%;
+}
+
+.two{
+  width: 50%;
+  height: 100%;
+}
+
+.two img{
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
+
+.btnn{
+  height: 30px;
+  width: 100px;
+  background-color: red;
+  color: white;
+}
+
+.grid-container {
+    display: grid;
+    margin-left: 90px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+footer{
+  background-image: url('foot.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 1267px){
+  .c1{width: 45%};
+  .section{width: 90%}; 
+}
+
+@media only screen and (max-width: 1244px){
+  .cdiv{
+    width: 750px;
+    height: 150px;
+  flex-direction: column;
+}
+.c1{height: 80px; width: 500px}
+.nav{height: 80px;width: 480px}
+}
+@media only screen and (max-width: 920px){
+  .nav{margin-left: -100px};
+  .rdiv{width: 20px};
+}
+@media only screen and (max-width: 920px) {
+    .rdiv input{display: none;}
+    .cdiv{width: 650px};
+    .mainn{margin-left: none}
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+     <div class="header">
+        <header>
+            <div class="ldiv"><img style="height:150px; margin-top: -20px; width: 200px" src="new.png" alt=""></div>
+            <div class="cdiv">
+                <div class="c1"><h2 style="color: white; text-shadow: 2px 2px blue; font-size: 40px">OUR FUTURE<sub style="font-size: 10px">LEARNING POINT</sub></h2></div>
+            <div class="nav">
+                <button class="btn">HOME</button>
+                <button class="btn">ABOUT</button>
+                <button class="btn">CONTACT</button>
+                <button class="btn">BLOG</button>
+            </div>
+        </div>
+            <div class="rdiv">
+                <input style="border: 1px solid black; height: 25px" type="text" placeholder="search">
+                  <button style="border: 1px solid black; height:30px; width: 40px; padding: 0">
+                    <img style="height: 30px; width: 30px" src="rem.png" alt=""></button></div>
+        </header><br><br>
+        
+<section class="section background">
+    <div class="mainn">
+        <div class="one">
+           <p><b>LEARN AND GROW</b> <br><br> Technology provides students with easy-to-access information, accelerated learning, and fun opportunities to practice what they learn.</p>
+           <br>
+           <button class="btnn">SUBSCRIBE</button>
+        </div>
+        <div class="two">
+          <img style="height: 200px; width: 300px " src="remove.png" alt="laptop">
+        </div>
+    </div>
+</section>
+</div>
+<br>
+<section style="background-color: white;">
+  <div class="grid-container"><div style="margin-top: 20px"><h1 style="font-size: 50px;">OUR TECHNOLOGICAL <br>WORLD</h1>
+    <p style="font-size: 25px;">* Easier, faster and more effective communication.<br>
+      * Better, more efficient manufacturing techniques.<br>
+      * More efficient stock management and ordering systems.<br>
+      * The ability to develop new, innovative approaches.<br>
+      * less wastage.</p></h1></div>
+    <div style="float:right"><img src="tech.jpg" alt="" style="height: 400px; width: 500px; border: 2px solid black; margin-top: 10px;"></div></div></section>
+
+    <section style="background-color: white;">
+      <div class="grid-container">
+        <div><img src="tech.jpg" alt="" style="height: 400px; width: 500px; border: 2px solid black; margin-top: 10px;"></div>
+        <div style="margin-left: -50px; margin-top: 20px"><h1 style="font-size: 50px;">OUR TECHNOLOGICAL <br>WORLD</h1>
+        <p style="font-size: 25px;">* Easier, faster and more effective communication.<br>
+          * Better, more efficient manufacturing techniques.<br>
+          * More efficient stock management and ordering systems.<br>
+          * The ability to develop new, innovative approaches.<br>
+          * less wastage.</p></h1></div>
+        </div></section>
+
+        <section style="background-color: white;">
+          <div class="grid-container"><div style="margin-top: 20px"><h1 style="font-size: 50px;">OUR TECHNOLOGICAL <br>WORLD</h1>
+            <p style="font-size: 25px;">* Easier, faster and more effective communication.<br>
+              * Better, more efficient manufacturing techniques.<br>
+              * More efficient stock management and ordering systems.<br>
+              * The ability to develop new, innovative approaches.<br>
+              * less wastage.</p></h1></div>
+            <div style="float:right"><img src="tech.jpg" alt="" style="height: 400px; width: 500px; border: 2px solid black; margin-top: 10px;"></div></div></section>
+       
+        <section  style=" background-color: white;"><div style="text-align:center"><h1 style="font-size: 50px">OUR FUTURE</h1></div>
+          <div class="grid-container">
+            <div style=" font-size: 20px; width: 900px"><p>Technology has invaded every aspect of our lives. From smartphones to smart cars- iPhones to Tesla, everything is now powered through technology. <br><br> 
+        Technology has completely revolutionized the way we interact, make friends, share our stories, and do our jobs. <br><br>
+        Every day a number of new and awesome technological products are launched in the market. With tech evolving at a rapid pace, it’s difficult to keep up with the changes. <br><br>
+        If you work in the technology field or are just tech geeks like us, keeping up with technology news becomes a top priority!
+      </p></div>
+        <div><img src="tech.jpg" alt="" style="width:280px; height: 250px; border: 2px solid black;"></div></div></section>        
+      <br><br><br><br>
+       <section style="display: flex; background-color: white; padding-left: 150px;">
+         <div>
+           <div><img src="com.jpg" alt="" style="height: 150px; width: 150px; border-radius: 100px;"></div>
+             <div style="margin-top: 200px"><img src="com.jpg" alt="" style="height: 150px; width: 150px; border-radius: 100px;"></div></div>
+          
+             <div>
+            <img src="com.jpg" alt="" style="border-radius: 900px; height: 500px; width: 500px; margin-left: 100px; margin-right: 100px;"></div>
+          
+            <div ><div><img src="com.jpg" alt="" style="height: 150px; width: 150px; border-radius: 100px;"></div>
+            <div style="margin-top: 200px"><img src="com.jpg" alt="" style="height: 150px; width: 150px; border-radius: 100px;"></div></div></section>  
+      <br><br>
+       <section  style="display: flex; background-color: white; padding-left: 50px; padding-top: 30px;">
+       <div><label style="font-size: 30px"><b>COMMENTS </label><br><br><input style="border: 1px solid black; height: 100px; width:300px"></input></div>
+      </section><br><br>
+
+        <footer style="display: flex;">
+          <div style="width: 30%; display: flex">
+            <div><img style="height:150px; width: 200px" src="new.png" alt=""></div>
+            <div style=" margin-left: -20px; font-size: 30px; margin-top: 50px; color: white;">OUR FUTURE<br><div style="margin-left: 50px; margin-top: 20px;">
+              <label style="font-size: 20px">sinup<br>login<br>our goal</label></div></div>   
+         </div>
+         <div style="height: 170px; color: white; margin-left: 100px; padding-top: 50px; width: 300px; float: center;">Dubai <br><br>
+          Al Maktab Building, Barsha<br><br>
+          
+          PO Box 211156, Dubai, UAE<br>
+          
+            Google Map location</div>
+            <div style="color: white; margin-left: 100px; padding-top: 100px; width: 300px; ">Get in Touch
+              +9714 3453033 <br>
+            
+              sales@grafdom.com</div>
+       </footer>
+       <div style="font-size: 15px; background-color: black; color: white;">Copyright © 2022 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.</div>
+
+</div>
+</body>
+</html>
